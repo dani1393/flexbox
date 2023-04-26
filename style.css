@@ -1,7 +1,8 @@
+
 .bloco-1 {
     background-color: rgb(230, 215, 16);
-    height: 150px;
-    width: 150px;
+    height: 200px;
+    width: 200px;
     text-align: center;
     font-size: 40px;
     font-family: 'Courier New', Courier, monospace;
@@ -10,8 +11,8 @@
 
 .bloco-2 {
     background-color: rgb(236, 11, 188);
-    height: 150px;
-    width: 150px;
+    height: 200px;
+    width: 200px;
     text-align: center;
     font-size: 40px;
     font-family: 'Courier New', Courier, monospace;
@@ -20,8 +21,8 @@
 
 .bloco-3 {
     background-color: rgb(16, 240, 191);
-    height: 150px;
-    width: 150px;
+    height: 200px;
+    width: 200px;
     text-align: center;
     font-size: 40px;
     font-family: 'Courier New', Courier, monospace;
@@ -291,3 +292,100 @@
 
 }
 
+.container-content-top {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+    flex-wrap: wrap-reverse;
+    align-content: top;
+    /* indiferente */
+    background-color: rgba(0, 0, 0, 0.76);
+    padding: 16px;
+    height: 500px;
+
+}
+
+.container-content-flex-start{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    /* indiferente */
+    background-color: rgba(0, 0, 0, 0.76);
+    padding: 16px;
+    height: 500px;
+}
+
+.container-content-flex-end {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    /* indiferente */
+    background-color: rgba(0, 0, 0, 0.76);
+    padding: 16px;
+    height: 500px;
+}
+
+.container-content-space-between {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: space-between;
+    /* indiferente */
+    background-color: rgba(0, 0, 0, 0.76);
+    padding: 16px;
+    height: 500px;
+}
+
+.container-content-space-around {  
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: space-around;
+    /* indiferente */
+    background-color: rgba(0, 0, 0, 0.76);
+    padding: 16px;
+    height: 500px;
+
+}
+
+.container-content-center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    /* indiferente */
+    background-color: rgba(0, 0, 0, 0.76);
+    padding: 16px;
+    height: 500px;
+
+}
+
+.container-content-space-space-evenly {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+    background-color: rgba(0, 0, 0, 0.76);
+    padding: 16px;
+    height: 500px;
+
+}

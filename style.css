@@ -1,4 +1,14 @@
 
+.titulo-pagina {
+    text-align: center;
+    font-style: italic;
+    font-size: 3em;
+    font-weight: 900;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+    margin: 10px;
+}
+
 .bloco-1 {
     background-color: rgb(230, 215, 16);
     height: 200px;
@@ -377,10 +387,10 @@
 
 }
 
-.container-content-space-space-evenly {
+.container-content-space-evenly {
     display: flex;
     flex-direction: row;
-    justify-content: flex;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     align-content: space-evenly;
